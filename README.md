@@ -2,6 +2,8 @@
 
 Decentra is a decentralized application (DApp) built using Web3 technologies. This repository serves as the project's codebase, showcasing how to create a decentralized application using React, GraphQL, and the Chakra UI framework. The application aims to demonstrate key concepts in decentralized web development.
 
+![Decentra Cover Image](https://github.com/ethankyle360/decentra-social-media/blob/main/Decentra.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
