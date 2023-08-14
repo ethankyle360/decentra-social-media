@@ -1,4 +1,4 @@
-import { createClient } from "urql";
+import { cacheExchange, createClient, fetchExchange } from "urql";
 
 export const APIURL = "https://api.lens.dev";
 export const LENS_HUB_CONTRACT_ADDRESS =
@@ -6,6 +6,7 @@ export const LENS_HUB_CONTRACT_ADDRESS =
 
 export const urlClient = createClient({
   url: APIURL,
+  exchanges: [cacheExchange, fetchExchange],
 });
 
 export const queryRecommendedProfiles = `
