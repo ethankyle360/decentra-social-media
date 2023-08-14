@@ -42,7 +42,7 @@ function App() {
   }
 
   async function follow(id) {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const provider = new ethers.BrowserProvider(window.ethereum)
     const contract = new ethers.Contract(
       LENS_HUB_CONTRACT_ADDRESS,
       LENSHUB,
